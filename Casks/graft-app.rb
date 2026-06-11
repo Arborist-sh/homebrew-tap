@@ -1,4 +1,4 @@
-cask "graft" do
+cask "graft-app" do
   version "0.1.3"
   sha256 "d927d92c0c71fb9067bfc3b7c2e2c4dd2c76ffb3de3b818005269ef9bfcb48a2"
 
