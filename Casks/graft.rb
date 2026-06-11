@@ -1,6 +1,6 @@
 cask "graft" do
-  version "0.1.1"
-  sha256 "a2129833dda91aeaf3456a2bcffd210fab6f5988fb05375381aa1b69da62c10a"
+  version "0.1.2"
+  sha256 "6c3f0f14e8e48095f5c2904f34464d78bfc704c7fb03d00e815a7993e4c088ec"
 
   url "https://github.com/briancorbin/graft/releases/download/v#{version}/GraftBar-#{version}.zip"
   name "Graft Bar"
