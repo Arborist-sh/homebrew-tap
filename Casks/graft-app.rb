@@ -1,10 +1,10 @@
 cask "graft-app" do
-  version "0.4.0"
-  sha256 "460dc34cd1682d4c407590f7549727137f8070a0ab41d94efe86af9bcac0e1eb"
+  version "0.5.0"
+  sha256 "1960d6f2db9d913085b4ab46a32596215c2f5ef4bc3626dc74e7750b04aaeeb0"
 
   url "https://github.com/briancorbin/graft/releases/download/v#{version}/Graft-#{version}.zip"
   name "Graft"
-  desc "Menu-bar companion for Graft ephemeral GitHub Actions runners"
+  desc "Desktop app for Graft ephemeral GitHub Actions runners + Tart dev/CI images"
   homepage "https://github.com/briancorbin/graft"
 
   depends_on macos: ">= :sonoma"
