@@ -1,7 +1,7 @@
 class Graft < Formula
   desc "Ephemeral GitHub Actions runners on Tart VMs"
-  homepage "https://github.com/briancorbin/graft"
-  url "https://github.com/briancorbin/graft/releases/download/v0.5.2/graft-0.5.2-arm64-macos.tar.gz"
+  homepage "https://github.com/arborist-sh/graft"
+  url "https://github.com/arborist-sh/graft/releases/download/v0.5.2/graft-0.5.2-arm64-macos.tar.gz"
   sha256 "796a4d2a62e6a796e692d98bfce4478f25ce0113726b39ca456a717d19a725f8"
   version "0.5.2"
   license "MIT"
