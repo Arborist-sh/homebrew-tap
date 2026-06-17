@@ -7,7 +7,7 @@ cask "graft-app" do
   desc "Desktop app for Graft ephemeral GitHub Actions runners + Tart dev/CI images"
   homepage "https://github.com/arborist-sh/graft"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   # The menu-bar app drives the graft CLI — install it too.
   depends_on formula: "arborist-sh/tap/graft"
 
