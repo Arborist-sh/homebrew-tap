@@ -1,9 +1,9 @@
 class Graft < Formula
   desc "Ephemeral GitHub Actions runners on Tart VMs"
   homepage "https://github.com/arborist-sh/graft"
-  url "https://github.com/arborist-sh/graft/releases/download/v0.5.4/graft-0.5.4-arm64-macos.tar.gz"
-  sha256 "c24b7303e88fa062a5d92af65c2b03f97accda88e969fdf4dbb63fc15e923b67"
-  version "0.5.4"
+  url "https://github.com/arborist-sh/graft/releases/download/v0.5.5/graft-0.5.5-arm64-macos.tar.gz"
+  sha256 "e449c3c38088993d6857b6bbe3279c7ec46b6c1dcf8464eec5cca33bf711329b"
+  version "0.5.5"
   license "MIT"
 
   # Apple Silicon only — Tart requires it, and so does the 2-macOS-VM model.
@@ -17,6 +17,6 @@ class Graft < Formula
   end
 
   test do
-    assert_match "0.5.4", shell_output("#{bin}/graft --version")
+    assert_match "0.5.5", shell_output("#{bin}/graft --version")
   end
 end
