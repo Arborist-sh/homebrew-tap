@@ -1,6 +1,6 @@
 cask "graft-app" do
-  version "0.5.5"
-  sha256 "1ad403d75cceac59cc0700db414ad04257ebc823d6bcb6096e5084d233d3c6a2"
+  version "0.5.6"
+  sha256 "22ad722e3097cd3fc0ee6e6c7c4c6956e402a9e82a5dfa704d7db0fcc21ccaad"
 
   url "https://github.com/arborist-sh/graft/releases/download/v#{version}/Graft-#{version}.zip"
   name "Graft"
