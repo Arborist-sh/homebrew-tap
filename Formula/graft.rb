@@ -9,11 +9,20 @@ class Graft < Formula
   # Apple Silicon only — Tart requires it, and so does the 2-macOS-VM model.
   depends_on arch: :arm64
   depends_on :macos
-  # Graft drives the `tart` CLI; pull it in automatically.
-  depends_on "cirruslabs/cli/tart"
+  # Graft drives the `tart` CLI but does NOT declare it as a dependency: the cirruslabs
+  # tap's tart/softnet formulas fail to load on Homebrew 6 (`depends_on :macos => :ventura`
+  # is disabled), which took `brew install graft` down with them (GFT-38). Users install
+  # tart themselves — see caveats — and graft checks for it at runtime.
 
   def install
     bin.install "graft"
+  end
+
+  def caveats
+    <<~EOS
+      graft drives the `tart` CLI, which is not installed automatically:
+        brew install cirruslabs/cli/tart
+    EOS
   end
 
   test do
