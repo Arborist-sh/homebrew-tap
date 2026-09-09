@@ -3,7 +3,6 @@ class Graft < Formula
   homepage "https://github.com/arborist-sh/graft"
   url "https://github.com/arborist-sh/graft/releases/download/v0.5.6/graft-0.5.6-arm64-macos.tar.gz"
   sha256 "b92c6b36463f92a6e1f47f95c4f98b45a1756078ffa49de37f799f46fff0929f"
-  version "0.5.6"
   license "MIT"
 
   # Apple Silicon only — Tart requires it, and so does the 2-macOS-VM model.
